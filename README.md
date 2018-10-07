@@ -32,11 +32,13 @@ Ctype PHP Extension
 
 JSON PHP Extension
 
-Tendo atendido aos requerimentos, após clonar o projeto basta se dirigir ao diretório raiz do projeto e efetuar o comando:
+Tendo atendido aos requerimentos, após clonar o projeto basta se dirigir ao diretório raiz do projeto e efetuar os seguintes comandos no terminal:
+
+`sudo composer update`
 
 `php artisan serve`
 
-Para configurar as conexões de banco de dados basta abrir o arquivo /api/.env e modificar os campos DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD
+Para configurar as conexões de banco de dados basta abrir o arquivo /api/.env.exemple e modificar os campos DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD. Em seguida renomear o arquivo para .env.
 
 Para o banco de dados, junto aos arquivos deste projeto a um backup do banco atualizado, porém caso prefira basta executar o seguinte comando no terminal:
 
