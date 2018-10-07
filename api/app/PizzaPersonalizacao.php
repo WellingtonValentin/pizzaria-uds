@@ -11,6 +11,11 @@ class PizzaPersonalizacao extends Model
 
     protected $fillable = ['descricao','valor','tempo_adicional'];
 
-    protected $hidden = ['status','created_at','updated_at'];
+    protected $hidden = ['status','created_at','updated_at','pivot'];
+
+    public function pedido()
+    {
+        return $this->belongsToMany(Pedido::class);
+    }
 
 }

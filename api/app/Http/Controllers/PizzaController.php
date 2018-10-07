@@ -32,16 +32,4 @@ class PizzaController extends Controller
         return response()->json($opcoes);
 
     }
-
-    public function store(Request $request)
-    {
-
-        var_dump($request['tamanho']);
-        $pedido = new Pedido();
-        $pedido->fill($request->all());
-        $pedido->save();
-
-        return response()->json($pedido, 201);
-    }
-
 }

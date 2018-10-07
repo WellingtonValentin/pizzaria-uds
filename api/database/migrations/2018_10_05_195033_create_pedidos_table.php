@@ -17,8 +17,7 @@ class CreatePedidosTable extends Migration
             $table->increments('id');
             $table->integer('fk_tamanho_pizza')->unsigned()->nullable(false);
             $table->integer('fk_sabor_pizza')->unsigned()->nullable(false);
-            $table->string('codigo',6)->nullable(false);
-            $table->enum('situacao',['Montagem','Adicionais','Finalizado']);
+            $table->enum('situacao',['Montagem','Personalização','Finalizado']);
             $table->integer('status')->nullable(false)->default('1');
             $table->timestamps();
         });
