@@ -266,9 +266,3 @@ Para conferir que a aplicação está rodando corretamente basta mandar uma requ
     }
     
 Pode-se observar que o valor total do pedido e o tempo total de preparo são discrimindos dos respectivos campos valor_total e tempo_total.
-
--------
-
-**Agradecimentos**
-
-Agradeço a empresa solicitante do teste a oportunidade de demonstrar meus conhecimentos e habilidades com ferramentas de desenvolvimento, espero que possamos vir a trabalhar juntos e que este seja apenas o primeiro passo de uma relação duradoura e benefica para ambos os lados.
